@@ -1,0 +1,65 @@
+VARIABLES AND NAMES:
+INDENTATION ERROR:
+if 5>3: 
+	print("hello") 
+print("hello") 
+OUTPUT: 
+indentation error
+
+
+ VARIABLES ASSIGN: 
+a=5 
+b="sam" 
+print(a) 
+print(b)
+OUTPUT: 
+5 
+sam
+
+a=5 
+a="sam" 
+print(a) 
+OUTPUT: 
+sam >>print last input 
+
+CONVERT: 
+a=str(5) 
+b=float(8) 
+c=int(76) 
+print(a) 
+print(b) 
+print(c) 
+print(type(a)) 
+print(type(b)) 
+print(type(c)) 
+OUTPUT: 
+5 
+8.0 
+76 
+<class 'str'> 
+<class 'float'> 
+<class 'int'>
+
+a="sam"
+b='sam'
+print(a)
+print(b)
+OUTPUT:
+sam
+sam
+
+CONDITIONS:
+#letters
+#underscopes
+#numbers
+#numbers begin not allowed
+
+a=b=c="venugopal"
+print(a)
+print(b)
+print(c)
+OUTPUT:
+venugopal
+venugopal
+venugopal	
+

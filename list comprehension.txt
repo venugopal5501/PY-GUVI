@@ -1,0 +1,84 @@
+list comprehension:
+1.normal
+2.comprehension
+3.print itself
+4.replce
+5.not equal
+6.range
+7.upper
+8.lower
+9.mathematical operation
+
+large:
+a=[1,2,3,4,5]
+b=[]
+for x in a:
+    x=x*2l
+    b.append(x)
+print(b)
+
+output:
+[2, 4, 6, 8, 10]
+
+large:
+a=["cat","bat","jet"]
+b=[]
+for i in a:
+    if "j" in i:
+        b.append(i)
+print(b)
+
+output:
+['jet]
+
+simple:
+a=["cat","bat","jet"]
+b=[v for v in a if "j" in v]
+print(b)
+
+output:
+['jet']
+
+not equal to:
+a=["cat","bat","jet"]
+b=[v for v in a if v!="bat"]
+print(b)
+
+output:
+['cat', 'jet']
+
+same print:
+a=["cat","bat","jet"]
+b=[v for v in a ]
+print(b)
+
+output:
+['cat', 'bat', 'jet']
+
+range
+b=[v for v in range(1,20) if v<6 ]
+print(b)
+
+output:
+[1, 2, 3, 4, 5]
+
+upper:
+a=["cat","bat","jet"]
+b=[v.upper() for v in a]
+print(b)
+
+not in list or replace:
+a=["cat","bat","jet"]
+b=[x if x!="bat" else "rat" for x in a ]
+print(b)
+
+output:
+['cat', 'rat', 'jet']
+
+simple:
+a=[1,2,3,4,5]
+b=[v+2 for v in a]
+print(b)
+
+output:
+[3, 4, 5, 6, 7]

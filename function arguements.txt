@@ -1,0 +1,23 @@
+functions as arguement:
+1.call two fuction
+
+Key takeaways from this chapter
+Passing function as an argument in Python
+A function can take multiple arguments, these arguments can be objects, variables(of same or different data types) and functions. 
+
+Python functions are first class objects.  This assignment doesn’t call the function. It takes the function object referenced by shout and creates a second name pointing to it
+
+a="cat","kan","van"
+def trial(x):
+    print(x*2)
+trial(a)
+def map(boy,a):
+    for i in a:
+        boy(i)
+map(trial,a)
+
+output:
+('cat', 'kan', 'van', 'cat', 'kan', 'van')
+catcat
+kankan
+vanvan

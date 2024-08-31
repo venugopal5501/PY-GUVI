@@ -1,0 +1,26 @@
+file handling: create
+f=open("create.txt","x")
+
+write;
+f=open("create.txt","w")
+f.write("hai")
+f.close()
+
+read:
+f=open("create.txt","r")
+print(f.read())
+print(f.read(1))
+print(f.readline())
+print(f.readline(1))
+
+append:
+f=open("create.txt","a")
+f.write("hai")
+f.close()
+
+file delete:
+import os
+if os.path.exists("1.txt"):
+    os.remove("1.txt")
+else:
+    print("not found")

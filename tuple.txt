@@ -1,0 +1,37 @@
+1.tuple into list
+2.specified location
+3.insert
+4.append
+5.basic string operations
+
+
+TUPLE:
+tuple into list:
+l=("apple","orrange","cat")
+y=list(l)
+y[1]="cat"
+x=tuple(y)
+print(y)
+
+output:
+['apple', 'cat', 'cat']
+
+tuple into list insert:
+l=("apple","orrange","cat")
+y=list(l)
+y.insert(1,"cat")
+x=tuple(y)
+print(x)
+
+output:
+('apple', 'cat', 'orrange', 'cat')
+
+tuple into list append:
+l=("apple","orrange","cat")
+y=list(l)
+y.append("at")
+x=tuple(y)
+print(x)
+
+output:
+('apple', 'orrange', 'cat', 'at')

@@ -1,0 +1,22 @@
+1.create
+2.specific word replace
+3.insert
+4.append
+5.
+list:
+
+list=["apple","orrange","cat"]
+list[1]="cat"
+print(list)
+
+output:
+['apple', 'cat', 'cat']
+
+inbuilt functions:
+list=["apple","orrange","cat"]
+list[1]="cat"
+list.insert(1,"apply")
+list.append("see")
+print(list)
+output:
+['apple', 'apply', 'cat', 'cat', 'see']

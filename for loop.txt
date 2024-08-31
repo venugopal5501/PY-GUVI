@@ -1,0 +1,99 @@
+for
+1.range
+2.word range
+3.len
+4.specific word
+5.one by one
+7.break
+8.continue
+9.for loop word
+
+
+The For Loop
+A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+
+This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.
+
+With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.for loop:
+
+
+for i in range(1,10):
+    print(i)
+output:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+a="venu","gopl","gandhi"
+for i in range(0,3):
+    print(a[i])
+output:
+venu
+gopl
+gandhi
+
+a="venu","gopl","gandhi"
+for i in range(len(a)):
+    print(a[i])
+output:
+venu
+gopl
+gandhi
+
+a="venu","gopl","gandhi"
+for i in "venu":
+    print(i)
+
+output:
+v
+e
+n
+u
+
+a="venu","gopl","gandhi"
+for i in a:
+    print(i)
+output:
+venu
+gopal
+gandhi
+
+a=1,2,3,43,5,6
+for i in a:
+    if i<3:
+        print(i)
+output:
+1
+2
+
+for loop break:
+a=1,2,3,43,5,6
+for i in a:
+    if i==3:
+        break
+    
+    print(i)
+output:
+1
+2
+
+for loop continue:
+a=1,2,3,43,5,6
+for i in a:
+    if i==3:
+        continue
+    
+    print(i)
+output:
+1
+2
+43
+5
+6
+

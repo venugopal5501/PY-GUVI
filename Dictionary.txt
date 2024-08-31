@@ -1,0 +1,36 @@
+1.create
+2.get key
+3.key value another method
+4.change key value
+
+Key takeaways from this chapter
+Dictionary
+Dictionaries are used to store data values in key:value pairs.
+
+A dictionary is a collection which is ordered, changeable and does not allow duplicates.
+
+Dictionaries are written with curly brackets, and have keys and values.
+
+dictionary:
+
+a={
+    "jan":"january",
+    "feb":"febraury",
+    "mar":"march"
+}
+print(a.get("jan"))
+
+output:
+january
+
+another method:
+a={
+    "jan":"january",
+    "feb":"febraury",
+    "mar":"march"
+}
+print(a["jan"])
+ouput:
+january
+
+in dict key are not in same value

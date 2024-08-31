@@ -1,0 +1,116 @@
+1.triple quote
+2.specified letter
+3.one by one
+4.length
+5.present in list
+6.slicing
+7.upper
+8.lower
+9.strip
+10.type
+11.replace
+12.split
+13.contaenation
+13.escape
+14.capitalize
+
+
+STRING BASICS:
+
+q='''
+make
+learning
+fun
+'''
+print(q)
+OUTPUT:
+make
+learning
+fun
+
+q="""
+make
+learning
+fun
+"""
+print(q)
+OUTPUT:
+make
+learning
+fun
+
+SPECIFIED LETTER
+x="venugopal"
+print(x[0])
+OUTPUT:
+v
+
+ONE BY ONE:
+x="venugopal"
+for b in x:
+    print(b)
+OUTPUT:
+v
+e
+n
+u
+g
+o
+p
+a
+l
+
+LENGTH:
+x="venugopal"
+print(len(x))
+OUTPUT:
+9
+
+PRESENT:
+x="venugopal from the college"
+print("thy" in x)
+OUTPUT:
+FALSE
+
+SLICING:
+x="notepad is a human"
+print(x[-4:-1])
+OUTPUT:
+uma
+
+UPPER:
+x="notepad is a human"
+print(x.upper())
+OUTPUT:
+NOTEPAD IS A HUMAN
+
+LOWER:
+x="HUMAN"
+print(x.lower())
+OUTPUT:
+human
+
+STRIP:
+a='*************venugopal******'
+a.strip("*")
+OUTPUT:
+'venugopal'
+
+REPLACE:
+a="vern"
+print(a.replace("v","k"))
+OUTPUT:
+kern
+
+SPLIT:
+a="venugopal@gmail.com"
+print(a.split("@"))
+
+CONCATENATION:
+a="venugopal@gmail.com"
+b="123"
+print(a+""+b)
+OUTPUT:
+venugopal@gmail.com123
+
+

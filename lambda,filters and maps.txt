@@ -1,0 +1,45 @@
+lambda:
+
+z=lambda a:a+50
+print(z(20))
+
+output:
+70
+
+a=lambda a,b,c:a+b*c
+print(a(5,5,2))
+
+lambda with function:
+def venu(n):
+    return lambda a:a*n
+hai=venu(23)
+hell=venu(19)
+print(hai(23))
+print(hell(19))
+
+filter:
+def prime(z):
+    for n in range(2,z):
+        if z%n==0:
+            return False
+        else:
+            return True
+flit=filter(prime,range(50))
+print("the prime no are",tuple(flit))
+
+filter:
+def odd(z):
+    for w in range(2,z):
+        if z%2==0:
+            return True
+        else:
+            return False
+fap=filter(odd,range(20))
+print(tuple(fap))
+
+map:
+def odd(z):
+    return z+10
+ask=(12,21,23,34,543)
+hai=map(odd,ask)
+print(list(hai))
